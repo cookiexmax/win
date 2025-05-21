@@ -4,20 +4,20 @@
   "private": true,
   "homepage": "https://eth-boilerplate.vercel.app/",
   "scripts": {
-  "pages:dev": "next-on-pages dev",
-  "pages:build": "next-on-pages build",
-  "pages:export": "next-on-pages export",
-  "pages:preview": "next-on-pages preview",
-  "pages:deploy": "next-on-pages deploy",
-  "format": "prettier . \"**/*.+(js|ts|json)\" --write --ignore-path .gitignore",
-  "format:check": "prettier \"**/*.+(js|ts|json)\" --check --ignore-path .gitignore",
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "test:e2e": "start-server-and-test dev http://localhost:3000 test:cypress",
-  "test:cypress": "cypress run --browser chrome --headless"
-},
+    "pages:dev": "next-on-pages dev",
+    "pages:build": "next-on-pages build",
+    "pages:export": "next-on-pages export",
+    "pages:preview": "next-on-pages preview",
+    "pages:deploy": "next-on-pages deploy",
+    "format": "prettier . \"**/*.+(js|ts|json)\" --write --ignore-path .gitignore",
+    "format:check": "prettier \"**/*.+(js|ts|json)\" --check --ignore-path .gitignore",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:e2e": "start-server-and-test dev http://localhost:3000 test:cypress",
+    "test:cypress": "cypress run --browser chrome --headless"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
     "@chakra-ui/react": "^2.5.5",
@@ -54,5 +54,6 @@
   },
   "engines": {
     "node": "^12.19.0 || ^14.15.0 || ^16.13.0"
-  }
+  },
+  "packageManager": "yarn@3.6.3"
 }
